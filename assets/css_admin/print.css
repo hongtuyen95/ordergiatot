@@ -1,0 +1,5 @@
+@media print {
+    .col-xs-4{width: 33.33333333%}
+    .col-xs-3{width: 25%;}
+    .col-xs-9{width: 75%}
+}

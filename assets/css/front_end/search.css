@@ -1,0 +1,173 @@
+/* Search icon by IcoMoon, made with http://icomoon.io/app/ */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sb-search {
+    margin-top: 0px;
+	position: relative;
+	width: 0%;
+	min-width: 40px;
+	height: 40px;
+	float: right;
+	/*overflow: hidden;*/
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+	position: absolute;
+	top: 65px;
+	right: 0;
+	border: none;
+	outline: none;
+	background: #fff;
+	width: 0px;
+	height: 40px;
+	margin: 0;
+	z-index: 10;
+	padding: 5px 5px 5px 15px;
+	font-family: inherit;
+	font-size: 14px;
+	color: #2c3e50;
+    display: none;
+}
+.sb-search.sb-search-open .sb-search-input {
+    width: 300px;
+    display: block;
+    border: 1px solid #cccccc;
+}
+.sb-search-input::-webkit-input-placeholder {
+	color: #5c5b5b;
+}
+
+.sb-search-input:-moz-placeholder {
+	color: #5c5b5b;
+}
+
+.sb-search-input::-moz-placeholder {
+	color: #5c5b5b;
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: #5c5b5b;
+}
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	color: #fff;
+	background: transparent;
+	z-index: 90;
+	font-size: 22px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+    content: "\f002";
+    font: normal normal normal 16px/1 fontawesome;
+    color: #fff;
+}
+.sb-search.sb-search-open .sb-icon-search:before{
+    color: #fff;
+}
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	/*width: 100%;*/
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	/*background:  #ffffff;
+	color: #fff;*/
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .sb-search.sb-search-open .sb-search-input,
+    .sb-search-input{
+        top: 0px;
+        display: block;
+        padding: 5px 43px 5px 15px;
+        width: 100%;
+        border: 1px solid #cccccc;
+    }
+    .sb-search{
+        margin: 0px 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .sb-icon-search {
+        background: #e10104;
+    }
+    .sb-icon-search:before {
+    	color: #fff;
+    }
+}
+
+@media (max-width:767px)  {
+    .sb-search.sb-search-open .sb-search-input,
+    .sb-search-input{
+        top: 0px;
+        display: block;
+        padding: 5px 43px 5px 15px;
+        width: 100%;
+        border: 1px solid #cccccc;
+    }
+    .sb-search{
+        margin: 0px 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .sb-icon-search {
+        background: #e10104;
+    }
+    .sb-icon-search:before {
+    	color: #fff;
+    }
+}

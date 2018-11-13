@@ -1,0 +1,1045 @@
+@font-face {
+    font-family: 'UTM_HelvetIns';
+    src: url('../fonts/UTMHelvetIns.eot');
+    src: url('../fonts/UTMHelvetIns.eot') format('embedded-opentype'), url('../fonts/UTMHelvetIns.woff')
+    format('woff2'), url('../fonts/UTMHelvetIns.woff') format('woff'), url('../fonts/UTMHelvetIns.ttf')
+    format('truetype'), url('../fonts/UTMHelvetIns.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Roboto_Bold';
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf')
+    format('truetype'), url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto_Regular';
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf')
+    format('truetype'), url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto_Black';
+    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Black.woff') format('woff'), url('../fonts/Roboto-Black.ttf')
+    format('truetype'), url('../fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto_Light';
+    src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light.ttf')
+    format('truetype'), url('../fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Roboto_Medium';
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf')
+    format('truetype'), url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTM_Cookies';
+    src: url('../fonts/UTMCookies.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UTMCookies.woff') format('woff'), url('../fonts/UTMCookies.ttf')
+    format('truetype'), url('../fonts/UTMCookies.svg#UTMCookies') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'RobotoSlab_Regular';
+    src: url('../fonts/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoSlab-Regular.woff') format('woff'), url('../fonts/RobotoSlab-Regular.ttf')
+    format('truetype'), url('../fonts/RobotoSlab-Regular.svg#RobotoSlab-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans.woff') format('woff'), url('../fonts/OpenSans.ttf')
+    format('truetype'), url('../fonts/OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans_Bold';
+    src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf')
+    format('truetype'), url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTM_Avo';
+    src: url('../fonts/UTMAvo.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UTMAvo.woff') format('woff'), url('../fonts/UTMAvo.ttf')
+    format('truetype'), url('../fonts/UTMAvo.svg#UTMAvo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'UTM_AvoBold';
+    src: url('../fonts/UTMAvoBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UTMAvoBold.woff') format('woff'), url('../fonts/UTMAvoBold.ttf')
+    format('truetype'), url('../fonts/UTMAvoBold.svg#UTMAvoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UVN_Van';
+    src: url('../fonts/UVNVan.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UVNVan.woff') format('woff'), url('../fonts/UVNVan.ttf')
+    format('truetype'), url('../fonts/UVNVan.svg#UVNVan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+a:focus {
+    color: #0d7cd6;
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.fixed {
+    position: fixed !important;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+.clearfix-130{
+    clear: both;
+    height: 130px;
+}
+.clearfix-100{
+    clear: both;
+    height: 100px;
+}
+.clearfix-80{
+    clear: both;
+    height: 80px;
+}
+.clearfix-60{
+    clear: both;
+    height: 60px;
+}
+.clearfix-55{
+    clear: both;
+    height: 55px;
+}
+.clearfix-50{
+    clear: both;
+    height: 50px;
+}
+.clearfix-45{
+    clear: both;
+    height: 45px;
+}
+.clearfix-40{
+    clear: both;
+    height: 40px;
+}
+.clearfix-35{
+    clear: both;
+    height: 35px;
+}
+.clearfix-30{
+    clear: both;
+    height: 30px;
+}
+.clearfix-32{
+    clear: both;
+    height: 32px;
+}
+.clearfix-25{
+    clear: both;
+    height: 25px;
+}
+.clearfix-20{
+    clear: both;
+    height: 20px;
+}
+.clearfix-15{
+    clear: both;
+    height: 15px;
+}
+.clearfix-12{
+    clear: both;
+    height: 12px;
+}
+.clearfix-10{
+    clear: both;
+    height: 10px;
+}
+.clearfix-5{
+    clear: both;
+    height: 5px;
+}
+
+body {
+    background: #fff;
+    font-size: 12px;
+    font-family: arial;
+    color: #000;
+}
+
+del {
+    font-size: 12px;
+    color: #999;
+}
+
+/*===========All=============*/
+.w_100 {
+    width: 100%;
+}
+
+.w_40 {
+    width: 40%;
+}
+
+.w_60 {
+    width: 60%;
+}
+
+/*==========Main============*/
+.menu_mb{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 999;
+    padding: 1px 15px;
+    border-bottom: 1px solid #ccc;
+}
+#go_top {
+    position: fixed;
+    width: 24px;
+    height: 25px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-size: 100% 100%;
+    display: inline-block;
+    z-index: 100;
+    bottom: 25px;
+    right: 25px;
+}
+.img_logo_mb{
+    max-height: 60px;
+    max-width: 70%
+}
+.menu_main .nav.is-fixed{
+    position: relative;
+    z-index: 105;
+}
+
+
+
+.slider_web .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span{
+    background: #ef673e;
+    border: 1px solid #ef673e;
+    box-shadow: 0 0 0 1px #fff inset;
+    width: 12px;
+    height: 12px;
+}
+.slider_web .owl-dots .owl-dot span{
+    background: #fff;
+}
+
+
+.sc_banggia .border {
+    border: 1px solid #96121d;
+    padding: 20px;
+    background: #fef9eb;
+}
+
+.sc_banggia .baogia-btn {
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    background: #96121d;
+    color: #fff;
+    padding: 8px;
+    line-height: 33px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.sc_banggia .baogia-btn .num {
+    display: inline-block;
+    background: #ffc702;
+    width: 33px;
+    color: #96121d;
+    height: 33px;
+    line-height: 33px;
+    -webkit-border-radius: 33px;
+    border-radius: 33px;
+    text-align: center;
+}
+
+.sc_banggia .baogia-btn span:not(.num) {
+    padding: 0 20px;
+}
+
+.sc_banggia .form-baogia {
+    background: #96121d;
+    color: #fff;
+    padding: 10px 20px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.sc_banggia .form-baogia .pin {
+    display: block;
+    position: relative;
+    overflow: auto;
+    margin: 0 -10px;
+}
+
+.sc_banggia .form-baogia .pin:before, .sc_banggia .form-baogia .pin:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.sc_banggia .form-baogia .pin:before {
+    float: left;
+}
+
+.sc_banggia .form-baogia .pin:after {
+    float: right;
+}
+
+.sc_banggia .form-baogia select,
+.sc_banggia .form-baogia input {
+    width: 100%;
+    color: #333;
+    padding: 8px 10px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: #ded6d0;
+    margin-bottom: 10px;
+}
+
+.sc_banggia .form-baogia .submit {
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    background: url(../img/btn.png) center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    border: none;
+    outline: none;
+}
+
+.sc_banggia .form-baogia .chiphi {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.sc_banggia .form-baogia .chiphi .num {
+    color: #fff000;
+    font-weight: bold;
+}
+.jc-space-between {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.ai-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*===================================giohang.html===================================*/
+.col_body{
+    background: #f0f3f5;
+}
+.list_section_prod .li_item_parent h2, .list_section_child .li_item_child a{
+    font-family: Roboto_Regular;
+    font-size: 14px;
+    color: #373435;
+}
+.list_section_prod .li_item_parent h2 a{
+    display: block;
+}
+.list_section_prod .li_item_parent h2{
+    padding: 14px 4px 12px 35px;
+    border-bottom: 1px solid #d2d2d2;
+    position: relative;
+    cursor: pointer;
+}
+.list_section_prod .li_item_parent:first-child h2{
+    border-top: 1px solid #d2d2d2;
+}
+.list_section_child .li_item_child a{
+    padding: 14px 4px 12px 8px;
+    display: block;
+}
+.list_section_child .li_item_child a{
+
+}
+.list_section_child .li_item_child:last-child{
+    padding-bottom: 0px;
+}
+.list_section_prod .li_item_parent:hover h2, .list_section_prod .li_item_parent:hover h2 a, .list_section_child .li_item_child a:hover{
+    color: #96121d;
+    text-decoration: none;
+}
+.list_section_prod .li_item_parent .list_section_child.list-item{
+    display: none;
+}
+.list_section_child{
+    background: #efefef;
+}
+.list_section_prod{
+    background: #fff;
+    height: 100%;
+}
+.list_section_prod .li_item_parent h2:before{
+    content: '';
+    width: 13px;
+    height: 11px;
+    background: url("../img/img_bar_ad.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 15px;
+    left:12px ;
+}
+.col_menu_left{
+    min-height: 660px;
+    box-shadow: 2px 0px 6px #8c8c8c;
+    padding-top: 32px;
+    height: 100%;
+    background: #fff;
+}
+.list_tk ul li{
+    display: inline;
+}
+.list_tk{
+    background: #fff;
+    padding: 13px 0px 12px 0px;
+    margin-right: -11px;
+}
+.list_tk ul li a{
+    font-family: Roboto_Regular;
+    font-size: 12px;
+    color: #333;
+    padding: 3px 0px 3px 14px;
+}
+.list_tk ul li a:hover{
+    color: #96121d;
+}
+.list_tk ul li span{
+    padding: 3px 6px;
+    background: #96121d;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+}
+.list_tk ul li img{
+    margin-right: 2px;
+}
+.name_page{
+    font-family: Roboto_Bold;
+    font-size: 24px;
+    color: #333;
+    padding: 18px 7px 12px 7px;
+    background: #fff;
+    margin: 1px -11px 0px 0px ;
+}
+.tab_name span{
+    background: #fff;
+    font-family: Roboto_Regular;
+    font-size: 10px;
+    color: #333;
+    padding: 7px 12px 9px 12px;
+}
+.content_phieu_hang{
+    padding: 21px 10px 23px 22px;
+    background: #fff;
+}
+.search_bill_form{
+    max-width: 379px;
+}
+.search_bill_form input{
+    max-width: 308px;
+    height: 25px;
+    border: 1px solid #e8edf0;
+    border-radius: 2px!important;
+    margin-right: 3px;
+    padding: 4px 8px;
+    font-family: Roboto_Regular;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.search_bill_form .btn-search-bill{
+    padding:0px 2px;
+    border: 1px solid #26c24b;
+    background: #26c24b;
+    border-radius: 2px;
+}
+.search_bill_form .btn-search-bill button{
+    background: transparent;
+    border: none;
+    padding: 4px 6px;
+    font-size: 12px;
+    font-family: Roboto_Regular;
+    color: #fff;
+}
+.add_bill{
+    padding: 14px 0px;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.add_bill button{
+    font-family: Roboto_Regular;
+    font-size: 13px;
+    background: #7266bb;
+    padding: 5px 11px 4px 7px;
+    border-radius: 2px;
+    color: #fff;
+    border: 1px solid #7266bb;
+}
+.add_bill button i{
+    margin-right: 2px;
+    font-size: 14px;
+}
+.enter_id_form{
+    margin-top: 5px;
+}
+.enter_id_form input, .info_kh{
+    height: 25px;
+    border-radius: 2px 0px 0px 2px!important;
+    border: 1px solid #e8edf0;
+    margin-right: 3px;
+    padding: 4px 8px;
+    font-family: Roboto_Regular;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.enter_id_form .btn-delete-txt{
+    padding: 0px;
+    background: #f1504f;
+    border-color: #f1504f;
+}
+.enter_id_form .btn-delete-txt button{
+    background: #f1504f;
+    padding: 4px 5px 4px 7px;
+    border-color: #f1504f;
+}
+
+.col_left_phieu ul li{
+    display: inline;
+}
+.col_left_phieu ul li:last-child{
+    margin-left: -3px;
+}
+.col_left_phieu ul li button, .da_giao{
+    padding: 6px 9px;
+    border: 1px solid transparent;
+    font-family: Roboto_Regular;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 2px;
+}
+.da_giao{
+    background: #26c24b;
+}
+.col_left_phieu ul li button i{
+    font-size: 14px;
+    margin-right: 3px;
+}
+.col_left_phieu ul li:first-child button{
+    background: #7266bb;
+}
+.col_left_phieu ul li:last-child button{
+    background: #24b8e6;
+}
+.line_donhang{
+    font-family: Roboto_Regular;
+    font-size: 16px;
+    color: #333;
+    padding: 20px 0px 24px 0px;
+}
+.name_order {
+    font-family: arial;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.title_phieu h2{
+    font-family: Roboto_Bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.title_phieu p{
+    font-size: 11px;
+}
+.num_phieu ul li{
+    display: inline;
+}
+.num_phieu ul li input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px dashed #aaaaaa;
+    margin-left: 2px;
+}
+.num_phieu p{
+    font-size: 11px;
+    margin-left: -20px;
+    margin-top: 4px;
+}
+.custumor{
+    margin: 14px 0px 0px 0px;
+}
+.id_kh, .custumor{
+    font-family: Roboto_Regular;
+    font-size: 12px;
+    line-height: 18px;
+}
+.content_phieu table{
+    margin: 15px 0px;
+}
+.content_phieu table tr td{
+    height: 24px;
+    width: 25%;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.content_col_kyten.text-center{
+    margin-bottom: 41px;
+}
+.txt_footer_don{
+    text-align: justify;
+}
+.ad_bottom{
+    font-family: Roboto_Regular;
+    font-size: 12px;
+    background: #f0f3f5;
+    color: #9d9c9c;
+}
+/*===================================end giohang.html===================================*/
+
+/*==================================ad_donhang.html========================================*/
+.tab_info_admin .tab-content{
+    background: #fff;
+    padding: 23px 11px 15px 11px;
+}
+.tab_info_admin .nav.nav-tabs li a{
+    border-radius: 0px;
+}
+.list_btn_kind li{
+    display: inline;
+    margin-right: 2px;
+}
+.list_btn_kind li button{
+    padding: 5px 12px;
+    background: transparent;
+    border: 1px solid #ddd;
+}
+.list_btn_kind li button:hover{
+    background: #ddd;
+    color: #333;
+}
+.bo_loc{
+    padding: 0px 11px;
+}
+.search_kind {
+    margin: 14px 0px 11px 0px;
+}
+.bo_loc input{
+    max-width: 423px;
+    height: 24px;
+    border-radius: 0px;
+    padding: 9px;
+    font-family: Roboto_Regular;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.bo_loc select{
+    max-width: 121px;
+    height: 24px;
+    border-radius: 6px!important;
+    padding: 2px 4px;
+}
+.search_kind{
+    max-width: 617px;
+}
+.bo_loc .input-group-addon.btn.btn-search-top{
+    padding: 0px;
+    border: none;
+    background: #26c24b;
+    border-radius: 0px;
+}
+.bo_loc form .btn button {
+    padding: 2px 8px;
+    font-family: Roboto_Regular;
+    font-size: 13px;
+    color: #fff;
+    background: #26c24b;
+    border: 1px solid #26c24b;
+}
+.table_search tr th, .table_search tr td{
+    font-family: Roboto_Regular;
+    font-size: 13px;
+}
+.blue_txt{
+    color: #61cbec;
+}
+.red_txt{
+    color: red;
+    font-weight: bold;
+}
+.green_txt{
+    color: #26c24b;
+    font-weight: bold;
+}
+.kho_cl{
+    padding: 5px;
+    background: #565653;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 11px;
+}
+.thanhtoan_color{
+    padding: 4px;
+    background: #84f3dc;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+.muahang_color{
+    padding: 4px;
+    background: #1184b5;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+.has_ic_span{
+    padding: 2px 0px 2px 13px;
+    background: url("../img/ic_span.png")no-repeat left center;
+}
+.id_shop_color{
+    color: #695cb6;
+}
+.link_sp_kn i{
+    margin-right: 3px;
+}
+.table_search tr td textarea{
+    height: 34px;
+    padding: 4px;
+}
+.btn_chontep{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-family: Roboto_Regular;
+    color: #000;
+}
+.btn_chontep:hover{
+    background: #ddd;
+
+}
+.btn_luu_gc button{
+    padding: 5px 8px;
+    background: #695cb6;
+    font-family: Roboto_Regular;
+    color: #fff;
+    border: none;
+}
+.btn_luu_gc button i{
+    font-size: 15px;
+    margin-right: 3px;
+}
+.cmt_txt{
+    color: #188c8c;
+    font-weight: bold;
+}
+.line_gc{
+    padding-right: 10px;
+    position: relative;
+}
+.line_gc button{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.line_gc button i{
+    color: red;
+}
+.line_gc .file_dk{
+    color: #26c24b;
+    padding-left: 16px;
+    position: relative;
+}
+.line_gc .file_dk:before{
+    content: '\f1c5';
+    font: normal normal 14px/1 FontAwesome;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #26c24b;
+}
+.btn_link_last_td{
+    padding: 3px 9px 3px 6px;
+    background: #695cb6;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+}
+.btn_link_last_td:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.btn_link_last_td:after{
+    content: '\f105';
+    font: normal normal 13px/1 FontAwesome;
+    width: 4px;
+    height: 4px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}
+.btn_chinhsua{
+    padding: 4px 5px;
+    color: #fff;
+    border: none;
+}
+.btn_huy, .btn_xoakn{
+    background: #f1504f;
+}
+.btn_luu{
+    background: #26c24b;
+}
+.btn_chinhsua.btn_huy{
+    margin: 11px 0px;
+}
+.btn_chinhsua.btn_xoakn{
+    margin-top: 11px;
+}
+.select_chinhsua{
+    border-radius: 4px;
+    padding: 4px;
+}
+/*==================================end ad_donhang.html========================================*/
+.sc_admin{
+    max-width: 100%;
+    overflow: hidden;
+}
+.dis_fl{
+    display: flex;
+}
+/*==================================ad_ql_khachhang.html==========================================*/
+#ql_khachhang{
+    background: #fff;
+    font-family: Roboto_Regular;
+    font-size: 13px;
+    color: #333;
+}
+.title_file_info{
+    padding: 6px 11px 8px 11px;
+    background: #f6f9f9;
+    border-top: 1px solid #e7eaea;
+}
+.pdd_form{
+    padding: 0px 16px;
+}
+.kh_no{padding: 18px 0px 10px 0px}
+.list_find_cus_kq li{
+    display: inline-block;
+    margin-right: 24px;
+}
+.list_find_cus_kq li .form-control{
+    width: 257px;
+}
+.input_date{
+    max-width: 110px!important;
+}
+.list_find_cus_kq{
+    margin-bottom: 11px;
+}
+.web_tag{
+    padding: 4px;
+    border-radius: 4px;
+    background: #ffa613;
+    color: #fff;
+    font-size: 12px;
+
+}
+.tim_txt{
+    color: #695cb6;
+}
+.checked_icon i{
+    color: #26c24b;
+}
+.btn_td_info_cus{
+    padding: 5px 7px;
+    border: 1px solid #e9edef;
+    background: #fff;
+    color: #333;
+    border-radius: 3px;
+}
+.btn_taichinh{
+    background: #24b8e6;
+    color: #fff;
+    border-color:#24b8e6 ;
+}
+.user_name_tt{
+    padding: 8px 0px;
+    background: #f6f9f9;
+    border-top: 1px solid #e7eaea;
+    border-bottom: 1px solid #e7eaea;
+    margin-bottom: 12px;
+    color: #aaaaaa;
+}
+.user_name_tt span{
+    color: #000;
+}
+#person_info .tab-content.pdd_form{
+    padding-top: 12px;
+    padding-bottom: 32px;
+    background: #fff;
+}
+#person_info .tab-content.pdd_form input{
+    margin: 5px 0px 12px 0px;
+}
+#person_info .tab-content.pdd_form p{
+    margin-top: 6px;
+}
+.input_check_style{
+    margin: 2px 5px 0px 0px!important;
+}
+.btn_xoa_user{
+    color: #fff;
+    background: #f1504f;
+    border: 1px solid #f1504f;
+}
+.div_btn_delete{
+    margin-top: 10px;
+    padding-top: 11px;
+    border-top: 1px solid #aaaaaa;
+}
+.search_kind form ul li{
+    display: inline-block;
+}
+/*==================================end ad_ql_khachhang.html==========================================*/
+
+/*============================================ad_timkiemdonhang================================================*/
+.col_adtimkiem, .table_search{
+    background: #fff;
+}
+.col_adtimkiem{
+    padding: 12px 14px 20px 14px;
+}
+.col_adtimkiem form{
+    max-width: 551px;
+    margin-bottom: 16px;
+}
+.col_adtimkiem form button{
+    margin-left: 4px;
+    padding: 4px 8px;
+    background: #96121d;
+    border:1px solid #96121d;
+    color: #fff;
+
+}
+.col_adtimkiem form .btn-search-timdon{
+    padding: 0px;
+    background: #96121d;
+    border-color: #96121d;
+    border-radius: 5px;
+}
+.col_adtimkiem form input{
+    border-radius: 3px;
+    margin-right: 3px;
+}
+/*============================================end ad_timkiemdonhang================================================*/
+.nav>li>a{
+    padding:10px 5px;
+}
+.list_tk .active a{
+    font-weight: bold;
+    color:#f12c2c;
+}
+
+.list_btn_kind button.active{
+    background-color:#2eacb9;
+    color:#fff;
+    border: none;
+    box-shadow:none;
+}
+.logo-lg img{
+    max-width: 65px;
+    max-height: 50px;
+}

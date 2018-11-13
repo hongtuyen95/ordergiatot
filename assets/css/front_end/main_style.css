@@ -1,0 +1,258 @@
+
+/* 7.2 Main Slider
+-------------------------------------------------------------- */
+.slider_wrap .rev_slider_wrapper {
+   z-index:0;
+}
+
+.slider_alias_boxed .rev_slider_wrapper{background-color: rgb(247, 247, 247);}
+
+/*.slotholder {height: inherit;}*/
+
+.tp-caption.trx-no-style,.trx-no-style{
+   border-width:0px;
+   border-color:rgb(34,34,34);
+   border-style:none;
+}
+.tp-caption.trx-big,.trx-big{
+   color:#ffffff;
+   text-shadow:none;
+   font-weight:600;
+   font-size:48px;
+   line-height:55px;
+   font-family:"Hind",sans-serif;
+   margin:0px;
+   white-space:nowrap;
+   padding:0px 0px 0px 0px;
+   background-color:transparent;
+   text-decoration:none;
+   text-align:center;
+   text-transform:uppercase;
+   border-width:0px;
+   border-color:rgb(0,0,0);
+   border-style:none;
+}
+.tp-caption.trx-normal-white,.trx-normal-white{
+   color:#ffffff;
+   text-shadow:none;
+   font-weight:400;
+   font-size:18px;
+   line-height:24px;
+   font-family:"Hind",sans-serif;
+   margin:0px;
+   white-space:nowrap;
+   padding:0px 0px 0px 0px;
+   background-color:transparent;
+   text-decoration:none;
+   border-width:0px;
+   border-color:rgb(0,0,0);
+   border-style:none;
+}
+.tp-caption.trx-big-extra,.trx-big-extra{
+   color:#ffffff;
+   text-shadow:none;
+   font-weight:600;
+   font-size:65px;
+   line-height:72px;
+   font-family:"Hind",sans-serif;
+   margin:0px;
+   white-space:nowrap;
+   padding:0px 0px 0px 0px;
+   background-color:transparent;
+   text-decoration:none;
+   text-align:center;
+   text-transform:uppercase;
+   border-width:0px;
+   border-color:rgb(0,0,0);
+   border-style:none;
+}
+.tp-caption.trx-big-left,.trx-big-left{
+   color:#ffffff;
+   text-shadow:none;
+   font-weight:600;
+   font-size:42px;
+   line-height:52px;
+   font-family:"Hind",sans-serif;
+   margin:0px;
+   white-space:nowrap;
+   padding:0px 0px 0px 0px;
+   background-color:transparent;
+   text-decoration:none;
+   text-align:left;
+   text-transform:uppercase;
+   border-width:0px;
+   border-color:rgb(0,0,0);
+   border-style:none;
+}
+
+.tp-caption.trx-no-style,.trx-no-style{
+   border-width:0px;
+   border-color:rgb(34,34,34);
+   border-style:none;
+}
+.tp-caption.trx-big-dark,.trx-big-dark{
+   color:#1b1d22;
+   text-shadow:none;
+   font-weight:600;
+   font-size:60px;
+   line-height:65px;
+   font-family:"Hind",sans-serif;
+   margin:0px;
+   white-space:nowrap;
+   padding:0px 0px 0px 0px;
+   background-color:transparent;
+   text-decoration:none;
+   text-align:left;
+   border-width:0px;
+   border-color:rgb(0,0,0);
+   border-style:none;
+}
+.tp-caption.trx-middle-dark,.trx-middle-dark{
+   color:#1b1d22;
+   text-shadow:none;
+   font-weight:600;
+   font-size:45px;
+   line-height:50px;
+   font-family:"Hind",sans-serif;
+   margin:0px;
+   white-space:nowrap;
+   padding:0px 0px 0px 0px;
+   background-color:transparent;
+   text-decoration:none;
+   text-align:left;
+   border-width:0px;
+   border-color:rgb(0,0,0);
+   border-style:none;
+}
+
+.tparrows.default {
+    background: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 100%;
+    color: #ffffff;
+    line-height: 39px;
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    position: relative;
+    -webkit-transition: background 0.3s ease-out;
+    -moz-transition: background 0.3s ease-out;
+    -ms-transition: background 0.3s ease-out;
+    -o-transition: background 0.3s ease-out;
+    transition: background 0.3s ease-out;
+}
+.tparrows.default:after {
+    display: block;
+    width: 31px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    right: 42px;
+    top: 20px;
+    content: "";
+}
+.tp-rightarrow.default:after {
+    left: 42px;
+    right: auto;
+}
+.tparrows.default:hover {
+    background: #ffffff;
+}
+
+.tparrows.default:hover::before {color: #eeba00;}
+
+.tparrows.default:before {
+   font-family: "fontello";
+   font-size:2em;
+    position: relative;
+}
+.tp-leftarrow.default:before {
+    content: "\f053";
+    font: normal normal normal 14px/1 FontAwesome;
+    left: -1px;
+}
+.tp-rightarrow.default:before {
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+    right: -1px;
+}
+
+.tp-bullets.simplebullets.round .bullet {
+   background:none;
+   width:16px;
+   height:16px;
+   margin-left:7px;
+   background-color:transparent;
+   border:2px solid #3c414c;
+}
+.tp-bullets.simplebullets.round .bullet.selected {
+   background-color:#3c414c;
+   border:2px solid #3c414c;
+}
+.tparrows.default:hover {
+    border-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.tp-leftarrow.default.preview1,
+.tp-rightarrow.default.preview1 {
+    background: #404856 !important;
+    height: 100px !important;
+    width: 37px !important;
+    z-index: 1000;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.tp-leftarrow.default.preview1:before,
+.tp-rightarrow.default.preview1:before {
+    height: 100px;
+    width: 37px;
+    color: #ffffff;
+    display: block;
+    font-size: 22px;
+    line-height: 100px;
+    text-align: center;
+    text-shadow: none;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Fontello";
+    z-index: 5;
+}
+.tparrows.preview1 .tp-arr-imgholder {
+    width: 110px !important;
+}
+.tparrows.preview1:after {
+    display: none !important;
+}
+.tp-leftarrow.default.preview1:before { content: '\e82a'; margin-left: -1px; font-weight: 100 !important; }
+.tp-rightarrow.default.preview1:before { content: '\e82b'; margin-right: -1px; font-weight: 100 !important; }
+.slider_engine_revo .sc_button,
+.sc_slider_revo .sc_button {
+    font-size: 18px;
+    /*height: 60px;
+    line-height: 64px;
+    padding: 0 45px;*/
+    height: auto;
+    line-height: 0;
+    padding: 0;
+
+
+}
+
+.slider_engine_revo .sc_button span,
+.sc_slider_revo .sc_button span {
+  padding: 29px 30px 26px;
+  border: 3px solid #ffffff;
+  margin-top: 20px;
+  display: inline-block;
+}
+.sc_button_square{
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  width: 160px;
+  height: 55px;
+  border: 3px sol;id #ffffff;
+}

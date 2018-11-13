@@ -1,0 +1,350 @@
+@media (min-width:1200px)
+/* lg*/
+
+{
+	.row_pc {
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+	.container {
+		width: 1200px;
+	}
+	/*-------------------search-------------------*/
+	.header_right .sb-icon-search {
+		line-height: 18px;
+	}
+	.header_right .sb-icon-search:before {
+		font-size: 16px;
+	}
+	.header_right .sb-search {
+		height: auto;
+	}
+	.header_right .sb-search-input {
+		height: 36px;
+		font-size: 14px;
+		top: 35px;
+		z-index: 999999;
+	}
+	.header_right .sb-icon-search,
+	.header_right .sb-search-submit {
+		height: 0;
+	}
+	/*======================end search=======*/
+	.dp-flex-pc {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.slider_wrap .tparrows.default:hover::before {
+		color: #fff;
+	}
+	.slider_wrap .tparrows.default:hover {
+		background: red;
+	}
+	.tongtien_fix{
+		min-width: 800px;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px)
+/* md*/
+
+{
+	.list_link_hd {
+		float: left !important;
+	}
+	/*-------------------search-------------------*/
+	.header_right .sb-icon-search {
+		line-height: 18px;
+	}
+	.header_right .sb-icon-search:before {
+		font-size: 16px;
+	}
+	.header_right .sb-search {
+		height: auto;
+	}
+	.header_right .sb-search-input {
+		height: 36px;
+		font-size: 14px;
+		top: 35px;
+		z-index: 999999;
+	}
+	.header_right .sb-icon-search,
+	.header_right .sb-search-submit {
+		height: 0;
+	}
+	/*======================end search=======*/
+	.nav-menu>.menu-item>.menu-link {
+		padding: 25px 5px 25px 5px;
+	}
+	.qts_head_mid .bt_dangkynhanh {
+		margin: 15px 0 0 0;
+	}
+	.process_buy .list_process_buy li {
+		width: 80%;
+	}
+	.sc_why .img_why {
+		max-width: 150px;
+		max-height: 215px;
+		top: 0;
+	}
+	.dp-flex-pc {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.slider_wrap .tparrows.default:hover::before {
+		color: #fff;
+	}
+	.slider_wrap .tparrows.default:hover {
+		background: red;
+	}
+	.qts_head_mid.fixed .bt_dangkynhanh {
+		display: none;
+	}
+	.fixed .nav-menu>.menu-item>.menu-link {
+		padding: 28px 5px 28px 5px;
+	}
+	.tongtien_fix{
+		min-width: 800px;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px)
+/* sm*/
+
+{
+	.sc_header_menu.sticky-header {
+		position: relative !important;
+	}
+	.qts_head_top .header_right ul {
+		margin-bottom: 15px;
+	}
+	.process_buy .tit_process a {
+		float: none;
+	}
+	.process_buy li {
+		float: none;
+	}
+	.process_buy .list_process_buy li {
+		width: 100%;
+	}
+	.process_buy .list_process_buy .img_process_buy {
+		float: left;
+	}
+	.process_buy .list_process_buy_right li .sub_process_buy {
+		float: none;
+	}
+	.process_buy .list_process_buy .sub_process_buy {
+		float: none;
+	}
+	.process_buy .list_process_buy .sub_process_buy .huongdan {
+		float: none;
+	}
+	.process_buy .list_process_buy .img_process_buy img {
+		margin-left: 0px;
+		margin-left: 9px;
+		padding: 0 9px;
+		border-left: 0;
+		border-right: 1px solid #fff;
+	}
+	.process_buy .list_process_buy_right li {
+		border-bottom-left-radius: 50px;
+		border-top-left-radius: 50px;
+		border-bottom-right-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	.list_process_buy {
+		margin-bottom: 15px;
+	}
+	.sc_why .list_why li {
+		float: none !important;
+		max-width: 100% !important;
+	}
+	.sc_why .list_why li .sub_why {
+		text-align: center !important;
+	}
+	.sc_why .list_why li:before {
+		display: none !important;
+	}
+	.sc_banggia .baogia-btn {
+		margin-bottom: 10px
+	}
+}
+
+@media (max-width:767px)
+/* xs*/
+
+{
+	.sc_header_menu.sticky-header {
+		position: relative !important;
+	}
+	.qts_head_top .header_right ul {
+		margin-bottom: 15px;
+	}
+	.process_buy .tit_process a {
+		float: none;
+	}
+	.process_buy li {
+		float: none;
+	}
+	.process_buy .list_process_buy li {
+		width: 100%;
+	}
+	.process_buy .list_process_buy .img_process_buy {
+		float: left;
+	}
+	.process_buy .list_process_buy_right li .sub_process_buy {
+		float: none;
+	}
+	.process_buy .list_process_buy .sub_process_buy {
+		float: none;
+	}
+	.process_buy .list_process_buy .sub_process_buy .huongdan {
+		float: none;
+	}
+	.process_buy .list_process_buy .img_process_buy img {
+		margin-left: 0px;
+		margin-left: 9px;
+		padding: 0 9px;
+		border-left: 0;
+		border-right: 1px solid #fff;
+	}
+	.process_buy .list_process_buy_right li {
+		border-bottom-left-radius: 50px;
+		border-top-left-radius: 50px;
+		border-bottom-right-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	.list_process_buy {
+		margin-bottom: 15px;
+	}
+	.sc_why .list_why li {
+		float: none !important;
+		max-width: 100% !important;
+	}
+	.sc_why .list_why li .sub_why {
+		text-align: center !important;
+	}
+	.sc_why .list_why li:before {
+		display: none !important;
+	}
+	.sc_banggia .baogia-btn {
+		margin-bottom: 10px
+	}
+	.sc_banggia .form-baogia .chiphi {
+		float: none !important;
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	.form-baogia h3 {
+		font-size: 11px;
+	}
+	.sc_banggia .border {
+		padding: 0;
+	}
+	.sc_setup .txt_setup {
+		font-size: 16px;
+	}
+}
+
+@media (max-width:480px) {
+	.tongtien_fix{
+		position: inherit !important;
+	}
+	.col-480-12 {
+		width: 100% !important;
+	}
+	.col-480-6 {
+		width: 50% !important;
+	}
+	.hidden-480 {
+		display: none !important;
+	}
+	.visible-480 {
+		display: block !important;
+	}
+	.slider_wrap {
+		display: none;
+	}
+	.sc_setup .txt_setup {
+		padding: 20px 5px 45px;
+		font-size: 14px;
+	}
+	.qts_head_top {
+		margin-bottom: 20px;
+	}
+	.qts_head_mid {
+		background: #fff;
+	}
+	.sc_setup {
+		margin-bottom: 20px;
+	}
+	.sc_home .title_home2 {
+		font-size: 20px;
+	}
+	.border .baogia_dichvukhac ul li a {
+		display: unset;
+	}
+	.qts_footer_bot ul li a {
+		padding: 20px 10px;
+	}
+	.border .contact_baogia span {
+		font-size: 22px;
+	}
+	.form_ft {
+		width: auto;
+		float: none;
+	}
+	#footer ul li {
+		font-size: 14px;
+	}
+	.contact_ft {
+		font-size: 14px;
+	}
+	.icon_ft {
+		text-align: center;
+	}
+	.icon_ft .fa {
+		padding: 20px;
+	}
+	.sc_banggia .baogia-btn span:not(.num) {
+		padding: 0 0 0 20px;
+	}
+	.border .baogia_dichvukhac h3 {
+		margin: 15px 0;
+	}
+	.login_ft i.fa {
+		display: none;
+	}
+	.sc_home .widget_sp .txt_w_sp .des_w_sp {
+		font-family: OpenSans_Regular;
+		line-height: 22px;
+		font-size: 13px;
+		color: #333;
+		text-align: unset;
+		max-height: 87px;
+		overflow: hidden;
+		-webkit-box-orient: vertical;
+		-o-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		white-space: normal;
+		-webkit-line-clamp: 4;
+		display: -webkit-box;
+	}
+	.sc_home .widget_sp .txt_w_sp h3 {
+		font-size: 13px;
+	}
+}
+
+.visible-480 {
+	display: none;
+}
